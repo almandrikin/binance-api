@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/xenking/binance-api"
+	"github.com/almandrikin/binance-api"
 )
 
 type binanceCtx struct {
