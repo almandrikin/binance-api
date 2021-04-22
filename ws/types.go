@@ -1,6 +1,6 @@
 package ws
 
-import "github.com/xenking/binance-api"
+import "github.com/almandrikin/binance-api"
 
 type UpdateType string
 
