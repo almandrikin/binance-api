@@ -78,7 +78,7 @@ type OrderReq struct {
 	Quantity         string        `url:"quantity,omitempty"`
 	QuoteQuantity    string        `url:"quoteOrderQty,omitempty"`
 	Price            string        `url:"price,omitempty"`
-	TimeInForce      TimeInForce   `url:"timeInForce"`
+	TimeInForce      TimeInForce   `url:"timeInForce,omitempty"`
 	NewClientOrderId string        `url:"newClientOrderId,omitempty"`
 	StopPrice        string        `url:"stopPrice,omitempty"`
 	IcebergQty       string        `url:"icebergQty,omitempty"`
