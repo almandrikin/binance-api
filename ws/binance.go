@@ -3,7 +3,7 @@ package ws
 import (
 	"strings"
 
-	"github.com/xenking/binance-api"
+	"github.com/almandrikin/binance-api"
 	"github.com/xenking/fastws"
 )
 
