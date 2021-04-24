@@ -309,6 +309,7 @@ type TickerReq struct {
 
 // TickerStats is the stats for a specific symbol
 type TickerStats struct {
+	Symbol                string `json:"symbol"`
 	PriceChange           string `json:"priceChange"`
 	PriceChangePercentage string `json:"priceChangePercent"`
 	WeightedAvgPrice      string `json:"weightedAvgPrice"`
